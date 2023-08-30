@@ -64,8 +64,8 @@
         <div  v-if = "direction == 'South' && yourTurn==true" id="South" v-on:click="go($event)" class="box2">S</div>
 
         <div v-if = "direction != 'SouthEast'" id="SouthEast" v-on:click="go($event)" class="box">SE</div>
-        <div v-if = "direction == 'SouthEast' && yourTurn==false" id="SouthEast" v-on:click="go($event)" class="box">SE</div>
-        <div v-if = "direction == 'SouthEast' && yourTurn==true" id="SouthEast" v-on:click="go($event)" class="box2">SE</div>
+        <div v-if = "direction == 'SouthEast' && yourTurn==false" id="SouthEst" v-on:click="go($event)" class="box">SE</div>
+        <div v-if = "direction == 'SouthEast' && yourTurn==true" id="SouthEst" v-on:click="go($event)" class="box2">SE</div>
 
       </div>
 
